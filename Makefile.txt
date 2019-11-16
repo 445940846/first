@@ -4,3 +4,5 @@ Human: main.o Chineseman.o Englishman.o
 	g++ -o $@ $<
 clean:
 	rm -rf *.o human
+	
+and you
