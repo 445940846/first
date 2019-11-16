@@ -6,3 +6,5 @@ clean:
 	rm -rf *.o human
 	
 and you
+
+thanks
