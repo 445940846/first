@@ -1,0 +1,6 @@
+Human: main.o Chineseman.o Englishman.o
+	g++ -o $@ $^
+%.o: %.cpp
+	g++ -o $@ $<
+clean:
+	rm -rf *.o human
